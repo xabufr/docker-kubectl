@@ -1,5 +1,4 @@
 FROM alpine:3.4
-MAINTAINER Lachlan Evenson <lachlan.evenson@gmail.com> 
 
 ENV KUBE_LATEST_VERSION="v1.3.5"
 
