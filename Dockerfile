@@ -10,5 +10,4 @@ RUN apk add --update ca-certificates \
  && apk del --purge deps \
  && rm /var/cache/apk/*
 
-# ENTRYPOINT ["sh"]
 CMD ["kubectl"]
