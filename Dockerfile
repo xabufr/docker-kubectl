@@ -9,4 +9,6 @@ RUN apk add --update ca-certificates \
  && apk del --purge deps \
  && rm /var/cache/apk/*
 
+RUN mkdir /.kube && chmod 777 -R /.kube
+
 CMD ["kubectl"]
